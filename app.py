@@ -80,6 +80,7 @@ def all_temps():
 
     return jsonify(temps)
 
+
 @app.route("/api/v1.0/<start>")
 def start_date(start):
     session = Session(engine)
